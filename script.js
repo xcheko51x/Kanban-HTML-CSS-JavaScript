@@ -35,9 +35,7 @@ function crearTarea(event) {
             const divTarea = document.getElementById(tarea.id)
             divTarea.childNodes[0].textContent = document.getElementById("tarea-nombre").value
             divTarea.childNodes[1].textContent = document.getElementById("tarea-descripcion").value
-            divTarea.childNodes[2].textContent = document.getElementById("responsable").value
-
-            console.log(divTarea.childNodes[0].textContent);
+            divTarea.childNodes[2].textContent = document.getElementById("tarea-responsable").value
 
             const btnEditar = document.getElementById("btn-crear-editar")
             btnEditar.value = "Crear Tarea"
